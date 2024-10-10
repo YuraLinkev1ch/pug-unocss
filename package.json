@@ -1,0 +1,41 @@
+{
+  "name": "vite-vanilla-js-template",
+  "description": "ViteJS starter template for vanilla JavaScript with some basic dependencies.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "eslint --fix --ext .js ./",
+    "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "buildpreview": "vite build && vite preview --open"
+  },
+  "devDependencies": {
+    "@prettier/plugin-pug": "^3.1.0",
+    "@unocss/extractor-pug": "^0.63.4",
+    "@unocss/preset-rem-to-px": "^0.63.4",
+    "@unocss/preset-uno": "^0.63.4",
+    "@unocss/vite": "^0.63.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "pnpm": "^9.12.1",
+    "postcss": "^8.4.47",
+    "postcss-nesting": "^13.0.0",
+    "prettier": "^3.3.3",
+    "pug": "^3.0.3",
+    "unocss": "^0.63.4",
+    "unocss-preset-scrollbar": "^0.3.1",
+    "unocss-preset-scrollbar-hide": "^1.0.1",
+    "vite": "5.4.8",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-pug": "^0.4.1"
+  },
+  "dependencies": {
+    "postcss-import": "^16.1.0"
+  }
+}
